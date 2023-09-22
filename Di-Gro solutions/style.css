@@ -1,0 +1,219 @@
+ *
+ {
+    margin:0;
+    padding:0;
+ }
+body
+{
+   font-family: sans-serif;
+
+}
+#nav-bar
+{
+      position: sticky;
+      top:0;
+      z-index:10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#ff0000f4,#f39e48);
+}
+.navbar-brand img
+{
+height: 60px;
+width:60px;
+}
+.navbar-nav li{
+    padding:0 10px;
+}
+.navbar-nav li a {
+    border: 1px solid transparent;
+    background:transparent;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.navbar-nav li a:hover
+{ 
+    background: #fff; /* Background color on hover */
+    color: #c53939; /* Text color on hover */
+}
+
+
+
+.fa-bars
+{
+    color:#fff;
+    font-size: 30px !important;
+}
+.navbar-toggler{
+    outline:none !important;
+}
+/*---------------banner section-------------------*/
+#banner
+{
+    background-image: linear-gradient(to right,#ba1717,#824d17);
+    color:#fff;
+    padding-top:5%;
+    max-width: fit-content;
+    min-height: fit-content;
+    
+}
+.promo-title
+{
+    font-size: 40px;
+    font-weight:600;
+    margin-top:100px;
+}
+.bottom-img
+{
+    width:100%;
+}
+
+/*-------------------------services section -------------------*/
+#services
+{
+    padding:80px 0;
+}
+.service-img
+{
+    width:190px;
+    margin-top:20px
+}
+.services
+{
+    padding:20px;
+}
+.services h4{
+    padding:5px;
+    margin-top:25px;
+    text-transform: uppercase;
+}
+.title::before
+{
+    content: '';
+    background:#ba1717;
+    height:5px;
+    width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    transform: translateY(45px);
+
+}
+
+p
+{
+    justify-content:center;
+    text-align:left;
+}
+/*----------------------------ABOUT US ---------------------------------*/
+#about-us
+{
+    padding-bottom:50px;
+    padding-top:20px;
+}
+.about-title
+{
+    font-size:40px;
+    font-weight:600;
+    margin-top: 8%;
+}
+#about-us ul li
+{
+    margin: 10px 0;
+}
+#about-us ul{
+    margin-left:20px;
+}
+#testimonials
+{
+    margin:10px 0;
+} 
+
+/*--------------------footer section------------------*/
+
+#footer
+{
+    background-image: linear-gradient(to right,#ba1717,#824d17);
+    color:#fff;
+    
+}
+.footer-img
+{
+    width:100%;
+}
+.footer-box{
+    padding:20px;
+
+}
+.footer-box img{
+    width:120px;
+    margin-bottom: 20px;
+}
+
+.footer-box  .fa
+{
+    padding-left: 5px; 
+    margin-right:8px;
+    font-size: 25px;
+    height:40px;
+    width:40px;
+    text-align:center;
+    padding-top:7px;
+    border-radius:2px;
+    background-image: linear-gradient(to right,#ba1717,#bd6d1e);
+}
+
+hr
+{
+    background-color: #fff;
+}
+.copyright
+{
+    margin-bottom:0;
+    padding-bottom:20px;
+    text-align:center;
+}
+.footer-box a{
+    font-size: 20px;
+    margin-left:18px;
+    justify-content: center;
+    border:1x solid #da2a2a;
+    
+    padding:10px;
+    color:white;
+    text-decoration: none;
+    border-radius:4px;
+
+}
+.footer-box a:hover{
+background:white;
+color:#ba1717
+
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    
+    
+
+    .navbar-brand img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .promo-title {
+        font-size: 100%;
+    }
+    
+
+}
+
+
